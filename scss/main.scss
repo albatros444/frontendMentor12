@@ -1,2 +1,57 @@
 @import "globals";
 @import "footer";
+@import "card";
+
+.hero {
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 75px;
+  background-color: hsl(0, 0%, 98%);
+  .h1Container {
+    width: 440px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.45;
+    h1 {
+      margin-top: 0;
+      margin-bottom: 17px;
+      text-align: center;
+      font-size: 36px;
+      color: hsl(234, 12%, 34%);
+      span {
+        font-weight: 200;
+      }
+    }
+  }
+  .pContainer {
+    width: 515px;
+    margin: auto;
+    margin-bottom: 63px;
+    text-align: center;
+    line-height: 1.6;
+    p {
+      color: hsl(229, 6%, 66%);
+    }
+  }
+  .cardsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    margin: auto;
+    .card {
+      .stripe_supervisor {
+        border-bottom: solid 4px hsl(180, 62%, 55%);
+      }
+      .stripe_teamBuilder {
+        border-bottom: solid 4px hsl(0, 78%, 62%);
+      }
+      .stripe_karma {
+        border-bottom: solid 4px hsl(34, 97%, 64%);
+      }
+      .stripe_calculator {
+        border-bottom: solid 4px hsl(212, 86%, 64%);
+      }
+    }
+  }
+}

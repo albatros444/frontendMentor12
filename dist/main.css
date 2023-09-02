@@ -14,6 +14,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  position: relative;
 }
 
 textarea,
@@ -32,6 +33,94 @@ input {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.card {
+  position: relative;
+  height: 251px;
+  width: 350px;
+  padding: 31px;
+  margin-bottom: 28px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 20px 20px rgb(226, 226, 245);
+}
+.card .stripe {
+  position: absolute;
+  border-left: solid 6px transparent;
+  border-right: solid 6px transparent;
+  top: 0;
+  left: 2px;
+  width: 346px;
+}
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+}
+.card p {
+  margin-top: 9px;
+  margin-bottom: 40px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: hsl(229, 6%, 66%);
+}
+.card img {
+  position: relative;
+  float: right;
+}
+
+.hero {
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 75px;
+  background-color: hsl(0, 0%, 98%);
+}
+.hero .h1Container {
+  width: 440px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.45;
+}
+.hero .h1Container h1 {
+  margin-top: 0;
+  margin-bottom: 17px;
+  text-align: center;
+  font-size: 36px;
+  color: hsl(234, 12%, 34%);
+}
+.hero .h1Container h1 span {
+  font-weight: 200;
+}
+.hero .pContainer {
+  width: 515px;
+  margin: auto;
+  margin-bottom: 63px;
+  text-align: center;
+  line-height: 1.6;
+}
+.hero .pContainer p {
+  color: hsl(229, 6%, 66%);
+}
+.hero .cardsSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  margin: auto;
+}
+.hero .cardsSection .card .stripe_supervisor {
+  border-bottom: solid 4px hsl(180, 62%, 55%);
+}
+.hero .cardsSection .card .stripe_teamBuilder {
+  border-bottom: solid 4px hsl(0, 78%, 62%);
+}
+.hero .cardsSection .card .stripe_karma {
+  border-bottom: solid 4px hsl(34, 97%, 64%);
+}
+.hero .cardsSection .card .stripe_calculator {
+  border-bottom: solid 4px hsl(212, 86%, 64%);
 }
 
 /*# sourceMappingURL=main.css.map */
