@@ -1,0 +1,49 @@
+@media screen and (max-width: 1110px) {
+  .hero {
+    .h1Container {
+      width: 303px;
+      line-height: 1.55;
+      h1 {
+        font-size: 24px;
+        letter-spacing: 0.01em;
+        margin-bottom: 15px;
+      }
+    }
+    .pContainer {
+      width: 320px;
+      margin-bottom: 73px;
+
+      p {
+        font-size: 15px;
+        line-height: 1.65;
+        letter-spacing: 0.01em;
+      }
+    }
+    .cardsSection {
+      width: auto;
+      justify-content: start;
+      flex-direction: column;
+    }
+  }
+
+  ///card
+  .card {
+    width: 311px;
+    height: 221px;
+    padding: 28px;
+    padding-top: 26px;
+    margin-bottom: 24px;
+
+    .stripe {
+      width: 308px;
+    }
+    img {
+      width: 57px;
+    }
+    p {
+      margin-top: 3px;
+      margin-bottom: 32px;
+      letter-spacing: 0.01em;
+    }
+  }
+}
